@@ -1178,6 +1178,35 @@ input[type='file'].input::file-selector-button:hover {
   align-items: start;
 }
 
+.backup-panel {
+  min-height: 100%;
+}
+
+.backup-list {
+  margin: 12px 0 14px;
+  padding-left: 18px;
+  color: #475467;
+  line-height: 1.55;
+}
+
+.backup-list li + li {
+  margin-top: 6px;
+}
+
+.backup-file-meta {
+  margin: -2px 0 12px;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.backup-inline-note {
+  margin: 0 0 12px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
 .import-export-panel h3 {
   margin: 0 0 6px 0;
 }
@@ -1530,6 +1559,30 @@ input[type='file'].input::file-selector-button:hover {
 
 .import-summary-table tbody tr:last-child td {
   border-bottom: none;
+}
+
+.import-summary-failed-list {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  background: #fef2f2;
+  color: #991b1b;
+  font-size: 13px;
+}
+
+.import-summary-failed-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.import-summary-failed-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.import-summary-failed-list li + li {
+  margin-top: 4px;
 }
 
 .settings-twofactor-grid {
